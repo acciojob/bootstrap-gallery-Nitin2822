@@ -21,103 +21,149 @@
 </head>
 <body>
 
-  <div class="container mt-5">
+<div class="container mt-5">
 
-    <!-- HEADER -->
-    <h2 class="text-center mb-4">Cards Gallery</h2>
+  <h2 class="text-center mb-4">Cards Gallery</h2>
 
-    <!-- ROW -->
-    <div class="row">
+  <div class="row">
 
-      <!-- CARD 1 -->
-      <div class="col-md-4 mb-4">
-        <div class="card text-center">
-          <img src="Image1" class="card-img-top" data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this.src)">
-          <div class="card-body">
-            <h6 class="card-title">Beautiful View</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
+    <!-- CARD TEMPLATE -->
+    <!-- Repeat for Image1 to Image9 -->
 
-      <!-- CARD 2 -->
-      <div class="col-md-4 mb-4">
-        <div class="card text-center">
-          <img src="Image2" class="card-img-top" data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this.src)">
-          <div class="card-body">
-            <h6 class="card-title">Nature Scene</h6>
-            <p class="card-text">Consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 3 -->
-      <div class="col-md-4 mb-4">
-        <div class="card text-center">
-          <img src="Image3" class="card-img-top" data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this.src)">
-          <div class="card-body">
-            <h6 class="card-title">Mountain</h6>
-            <p class="card-text">Sed do eiusmod tempor.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 4 -->
-      <div class="col-md-4 mb-4">
-        <div class="card text-center">
-          <img src="Image4" class="card-img-top" data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this.src)">
-          <div class="card-body">
-            <h6 class="card-title">River</h6>
-            <p class="card-text">Incididunt ut labore.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 5 -->
-      <div class="col-md-4 mb-4">
-        <div class="card text-center">
-          <img src="Image5" class="card-img-top" data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this.src)">
-          <div class="card-body">
-            <h6 class="card-title">City View</h6>
-            <p class="card-text">Dolore magna aliqua.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CARD 6 -->
-      <div class="col-md-4 mb-4">
-        <div class="card text-center">
-          <img src="Image6" class="card-img-top" data-toggle="modal" data-target="#lightboxModal" onclick="showImage(this.src)">
-          <div class="card-body">
-            <h6 class="card-title">Sunset</h6>
-            <p class="card-text">Ut enim ad minim.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- LIGHTBOX MODAL -->
-  <div class="modal fade" id="lightboxModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-body p-0">
-          <img id="lightboxImage" src="" class="img-fluid w-100">
+    <!-- Image 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image1" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image One</h6>
+          <p>Description for image one.</p>
         </div>
       </div>
     </div>
+
+    <!-- Image 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image2" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Two</h6>
+          <p>Description for image two.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image3" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Three</h6>
+          <p>Description for image three.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image 4 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image4" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Four</h6>
+          <p>Description for image four.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image 5 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image5" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Five</h6>
+          <p>Description for image five.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image 6 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image6" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Six</h6>
+          <p>Description for image six.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image 7 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image7" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Seven</h6>
+          <p>Description for image seven.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image 8 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image8" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Eight</h6>
+          <p>Description for image eight.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image 9 -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <a href="#" data-toggle="modal" data-target="#lightboxModal">
+          <img src="Image9" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h6>Image Nine</h6>
+          <p>Description for image nine.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
+</div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- LIGHTBOX MODAL -->
+<div class="modal fade" id="lightboxModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <img src="" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+</div>
 
-  <script>
-    function showImage(src) {
-      document.getElementById("lightboxImage").src = src;
-    }
-  </script>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
